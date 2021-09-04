@@ -1,4 +1,4 @@
-import Article from "./components/Article";
+import { Article, Counter } from "./components/index"
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
         title={'新・日本一わかりやすいReact入門6'}
         content={'今日のトピックはuseEffectについて。'}
       />
+      <Counter></Counter>
     </div>
   );
 }
